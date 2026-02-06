@@ -101,7 +101,7 @@ export function HeroSection() {
             </div>
             
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1C0D47] mb-6 md:mb-8 leading-tight">
-              Все уникальные способы управления клиентами — в одном приложении
+              Все каналы коммуникации в Raycon CRM
             </h1>
             
             <Button 

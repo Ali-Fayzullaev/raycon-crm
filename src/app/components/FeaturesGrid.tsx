@@ -1,6 +1,6 @@
 export function FeaturesGrid() {
   return (
-    <section className="py-12 md:py-20 bg-white overflow-hidden">
+    <section id="features" className="py-12 md:py-20 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero Banner Section - Like the image */}
         <div className="relative py-6 sm:py-8 md:py-12">
@@ -18,7 +18,7 @@ export function FeaturesGrid() {
             
             {/* Center Text */}
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-[#1C0D47] text-center max-w-[200px] sm:max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg leading-tight">
-              Любимая CRM для малого бизнеса и предпринимателей
+              ЧЕМ ГРОЗИТ ОТСУТСТВИЕ CRM В НАШИ ДНИ?
             </h2>
             
             {/* Right Avatar */}
@@ -39,7 +39,7 @@ export function FeaturesGrid() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="order-2 md:order-1">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C0D47] mb-4">
-                Все мессенджеры в одном месте
+                 Теневой бизнес отдела продаж 
               </h3>
               <p className="text-base sm:text-lg text-gray-700 mb-6">
                 Объедините WhatsApp, Telegram, Instagram и другие каналы в единый инбокс. Больше не нужно переключаться между приложениями — все сообщения клиентов в одном окне.
@@ -65,7 +65,7 @@ export function FeaturesGrid() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="order-2">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C0D47] mb-4">
-                Умные уведомления и email
+                Менеджеры работают только с легкими клиентами
               </h3>
               <p className="text-base sm:text-lg text-gray-700 mb-6">
                 Никогда не пропускайте важные сообщения. Raycon CRM автоматически уведомит вас о новых лидах, ответах клиентов и важных событиях в реальном времени.
@@ -96,7 +96,7 @@ export function FeaturesGrid() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="order-2 md:order-1">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C0D47] mb-4">
-                Аналитика и быстрый поиск
+                Имитация бурной деятельности
               </h3>
               <p className="text-base sm:text-lg text-gray-700 mb-6">
                 Мгновенно находите любого клиента, сделку или разговор. Получайте детальную аналитику по продажам, конверсиям и эффективности вашей команды.
@@ -120,7 +120,7 @@ export function FeaturesGrid() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="order-2">
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C0D47] mb-4">
-                Премиум возможности для роста
+                Показ только успешных сделок
               </h3>
               <p className="text-base sm:text-lg text-gray-700 mb-6">
                 Автоматизируйте рутинные задачи, настройте воронку продаж под ваш бизнес и масштабируйте продажи без увеличения команды. Raycon CRM растёт вместе с вами.
